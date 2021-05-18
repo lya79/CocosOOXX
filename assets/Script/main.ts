@@ -53,10 +53,6 @@ export default class Helloworld extends cc.Component {
         this.menuStage()
     }
 
-    onDestroy() {// TODO
-
-    }
-
     clickPlayer(event, ooPlayer: string) {
         this.ooPlayer = true
         if (ooPlayer != "true") {
